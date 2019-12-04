@@ -1,10 +1,3 @@
-
-/* black background with white text */
-/* .container{
-  background-color: #000000;
-  color: #FFFFFF;
-} */
-
 body {
   margin:0;
   background-image: url("assets/space_background.png");
@@ -16,16 +9,49 @@ body {
 
 .site-header h1{
   position: absolute;
+  text-align: center;
   z-index: 1;
   color: #FFFFFF;
+  font-family: acumin-pro-extra-condensed, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 90px;
+  line-height: 90%;
 }
 
 .all-info {
   margin-left: 7%;
   margin-right: 7%;
   color: white;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
 }
 
+.button {
+  font-family: politica, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+h3 {
+  font-family: politica, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+}
+
+blockquote {
+  font-family: politica-condensed, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #FFF364;
+  font-size: 35px;
+}
 
 
 
