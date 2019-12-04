@@ -29,6 +29,10 @@ body {
   font-size: 16px;
 }
 
+p {
+  margin-left: 3%;
+}
+
 .header-buttons{
   height: 100px;
 }
