@@ -5,6 +5,11 @@
   color: #FFFFFF;
 } */
 
+body {
+  margin:0;
+  background-image: url("assets/space_background.png");
+}
+
 .site-header{
   position: relative;
 }
@@ -13,9 +18,13 @@
   position: absolute;
   z-index: 1;
   color: #FFFFFF;
-
 }
 
+.all-info {
+  margin-left: 7%;
+  margin-right: 7%;
+  color: white;
+}
 
 
 
