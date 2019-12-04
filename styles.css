@@ -33,6 +33,21 @@ p {
   margin-left: 3%;
 }
 
+h3 {
+  font-family: politica, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+  text-align: center;
+  border: 2px;
+  background-color: #97C7D3;
+  padding: 2% 3%;
+  cursor: pointer;
+  border-radius: 0px 12px 12px 0px;
+  width: 40%;
+
+}
+
 .header-buttons{
   height: 100px;
 }
@@ -52,13 +67,6 @@ p {
   border-radius: 12px 12px 12px 12px;
   justify-content: space-evenly;
   flex-wrap: wrap;
-}
-
-h3 {
-  font-family: politica, sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 24px;
 }
 
 blockquote {
