@@ -1,0 +1,39 @@
+
+/* black background with white text */
+/* .container{
+  background-color: #000000;
+  color: #FFFFFF;
+} */
+
+.site-header{
+  position: relative;
+}
+
+.site-header h1{
+  position: absolute;
+  z-index: 1;
+  color: #FFFFFF;
+
+}
+
+
+
+
+
+/* For Ipad */
+@media only screen and (min-width:500px) and (max-width:768px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* For Desktop */
+  @media only screen and (min-width:960px) {
