@@ -123,6 +123,9 @@ padding-left: 5%;
 a {
   display: block;
   margin-bottom: 6%;
+  text-decoration: none;
+  color: #FFF364;
+  text-align: center;
 }
 
 .button {

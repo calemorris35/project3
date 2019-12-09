@@ -18,23 +18,23 @@
         <h1>How to Build a Moon Base</h1>
       </div>
       <div class="site-hero-pic">
-        <!-- add video of moon here -->
         <video autoplay loop muted width="100%">
           <source id="hero-video" src="assets/moon-hero.mov">
         </video>
       </div>
     </header>
     <div class="header-buttons">
-      <a class="button intro" href="#intro">Intro</a>
-      <a class="button when" href="#when">When</a>
-      <a class="button mining" href="#mining">Mining</a>
-      <a class="button shelter" href="#shelter">Shelter</a>
-      <a class="button soil" href="#soil">Soil</a>
-      <a class="button kale" href="#kale">Kale</a>
-    </div>
+  <a id="button-intro" class="button intro" href="#intro">Intro</a>
+  <a id="button-when" class="button when" href="#when">When</a>
+  <a id="button-mining" class="button mining" href="#mining">Mining</a>
+  <a id="button-shelter" class="button shelter" href="#shelter">Shelter</a>
+  <a id="button-soil" class="button soil" href="#soil">Soil</a>
+  <a id="button-kale" class="button kale" href="#kale">Kale</a>
+</div>
+
 
     <div class="all-info">
-    <div class="intro-info">
+    <div id="intro-info" class="intro-info">
       <div class="footprint_pic"></div>
         <a name="intro"></a>
       <h3>Introduction</h3>
@@ -45,7 +45,7 @@
       <p> Researchers relish the idea of a base for conducting experiments on the Moon and as a way to trial technologies for heading to Mars. Private firms, however, are increasingly tempted by the possibility of mining oxygen and hydrogen — which power rockets — from lunar ice. If that does pan out, then the Moon could become a refuelling station, radically reducing the expense of space travel. </p>
       <p>“Water is the oil of space, and there’s mounting evidence that it’s there in economically viable deposits,” says George Sowers, an aeronautical scientist at the Colorado School of Mines in Golden and previously chief scientist at United Launch Alliance, a firm in Centennial, Colorado, that provides launch services for the US government.</p>
     </div>
-    <div class="when-will-this-happen">
+    <div class="when-will-this-happen" id="when">
       <div class="astronaut"></div>
         <a name="when"></a>
       <h3>When Will This Happen?</h3>
@@ -57,7 +57,7 @@
       <p>Researchers have long explored ways to harvest lunar resources, but more in hope than expectation. Now, they are ramping up lunar settlement technology with genuine anticipation that their work might be put into action. While Maurer and others at ESA’s LUNA centre practise living on and mining the Moon, others are working on how to grow food and build radiation-proof shelters.</p>
       <p>At a July meeting at ESA’s European Space Research and Technology Centre in Noordwijk to prepare for future human Moon missions, more than 250 specialists from academia, mining, metallurgy, construction and architecture pitched their ideas. “If you ran the same workshop five years ago, it may have only been a handful of people,” says Aidan Cowley, science adviser at the European Astronaut Centre. “The appetite has really increased.” Although a Moon base might still never happen, Earth-bound preparation for lunar living is well under way.</p>
     </div>
-    <div class="water-mining">
+    <div id="mining" class="water-mining">
       <div class="ice"></div>
         <a name="mining"></a>
       <h3>Water Mining</h3>
@@ -71,7 +71,7 @@
       <p>Alternatively, rovers could scoop up ice-filled soil and warm it in ovens to release water. The ovens could be powered wirelessly, by training high-power lasers onto photovoltaic cells on the rover. The LUNA facility could test how this would work in real life, with added challenges such as Moon dust in the atmosphere that scatters the laser beams, says ESA’s Leopold Summerer. LUNA scientists will also clamber into life-like Moon craters to see how easy it is to navigate these deep, dark slopes, Maurer says.</p>
 
     </div>
-    <div class="living-off-the-soil">
+    <div id="soil" class="living-off-the-soil">
       <div class="soil-pic"></div>
         <a name="soil"></a>
       <h3>Living off the soil</h3>
@@ -82,7 +82,7 @@
       <blockquote data-aos="fade-left" data-aos-easing="ease-in-out">"Solar concentrators - mirrors and lenses - could generate high temperatures that release oxygen from metal oxides."</blockquote>
       <p> And the metallurgy firm Metalysis, in Rotherham, UK, is trying to pull oxygen from solid metal ores by passing electricity through a bath of molten salts, rather than relying on a chemical reaction. The technique, which the firm pioneered to create high-quality metal alloys for aerospace industries, could also produce high-purity metal for machinery on the Moon.</p>
     </div>
-    <div class="finding-shelter">
+    <div id="shelter" class="finding-shelter">
       <div class="closeup"></div>
         <a name="shelter"></a>
       <h3>Finding Shelter</h3>
@@ -110,7 +110,18 @@
       <div class="moon-pic"></div>
       <h3>Conclusion and Extra Information</h3>
       <p>Ultimately, says Mueller, setting up camp on the Moon is likely to be a desire checked not by technology, but by political will and economics. “If we can solve both of those, I absolutely believe that permanent inhabitation of the Moon will happen.”</p>
-      <p>Learn more at
+      <p>Learn more about this article and future projects at these sites:
+        <br><a href=”https://www.esa.int/”>European Space Agency</a>
+
+<a href=”https://www.esa.int/About_Us/EAC/Luna_facility_brings_Moon_to_Earth”>LUNA Project </a>
+
+<a href=”https://www.dlr.de/EN/Home/home_node.html”>German Aerospace Center</a>
+
+<a href=”https://www.ulalaunch.com/”>United Launch Alliance</a>
+
+<a href=”https://www.blueorigin.com/”>Blue Origin</a>
+
+<a href=”https://www.polimi.it/en/”>Polytechnic of Milan</a>
     </div>
   </div>
 
@@ -118,14 +129,17 @@
     </div>
 
     <script src="assets/rellax.js" charset="utf-8"></script>
+
   <script>
   var rellax = new Rellax('.rellax', {
   center: true
 });
   </script>
-
+  <script src="js/jquery.scrollTo.min.js"></script>
+  <script src="js/scrollTo.custom2.js"></script>
+  <script src="js/popup.js"></script>
   <script src="js/aos.js" charset="utf-8"></script>
-
   <script src="js/aos-duration.js" charset="utf-8"></script>
+
   </body>
 </html>
