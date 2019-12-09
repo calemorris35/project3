@@ -70,16 +70,12 @@ body {
   display:block;
 }
 
-.site-header h1{
+.site-header #title{
   position: absolute;
   text-align: center;
   z-index: 1;
-  color: #FFFFFF;
-  font-family: acumin-pro-extra-condensed, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 90px;
-  line-height: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .all-info {
