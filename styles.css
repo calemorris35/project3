@@ -20,7 +20,7 @@ body {
 }
 
 .all-info {
-  margin-left: 7%;
+  /* margin-left: 7%; */
   margin-right: 7%;
   color: white;
   font-family: acumin-pro, sans-serif;
@@ -30,7 +30,7 @@ body {
 }
 
 p {
-  margin-left: 3%;
+  margin-left: 10%;
 }
 
 h3 {
@@ -38,19 +38,31 @@ h3 {
   font-weight: 600;
   font-style: normal;
   font-size: 24px;
-  text-align: center;
+  /* text-align: center; */
   border: 2px;
   background-color: #97C7D3;
   padding: 2% 3%;
   cursor: pointer;
   border-radius: 0px 12px 12px 0px;
-  width: 40%;
-
+display: inline-block;
+padding-left: 5%;
 }
 
 .header-buttons{
-  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
+
+a {
+  display: block;
+  margin-bottom: 6%;
+}
+
 .button {
   font-family: politica, sans-serif;
   font-weight: 600;
@@ -58,11 +70,13 @@ h3 {
   font-size: 20px;
   text-decoration: none;
   color: white;
-  margin-left: 6%;
-  margin-right: 6%;
+  /* margin-left: 6%; */
+  /* margin-right: 6%; */
   border: 2px;
   background-color: #97C7D3;
-  padding: 2% 3%;
+  padding: 2% 0%;
+  text-align: center;
+  width: 80px;
   cursor: pointer;
   border-radius: 12px 12px 12px 12px;
   justify-content: space-evenly;
