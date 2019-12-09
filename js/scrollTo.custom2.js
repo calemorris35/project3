@@ -16,27 +16,18 @@ jQuery(function(){
 
         $('#button-mining').click(function() {
         $target.scrollTo($('#mining') , 800);
-  });
+  })
 
-         $('#button_combo').click(function() {
-        $target.scrollTo($('#page5') , 800);
-  });
+  $('#button-shelter').click(function() {
+  $target.scrollTo($('#shelter') , 800);
+})
 
-        $('#button2_new').click(function() {
-        $target.scrollTo($('#page1') , 800);
-  });
-        $('#normal_done').click(function() {
-        $target.scrollTo($('#page6') , 800);
-  });
-        $('#dry_done').click(function() {
-        $target.scrollTo($('#page6') , 800);
-  });
-        $('#oily_done').click(function() {
-        $target.scrollTo($('#page6') , 800);
-  });
-        $('#combo_done').click(function() {
-        $target.scrollTo($('#page6') , 800);
-  });
+$('#button-soil').click(function() {
+$target.scrollTo($('#soil') , 800);
+})
 
+$('#button-kale').click(function() {
+$target.scrollTo($('#kale') , 800);
+})
 
 });
