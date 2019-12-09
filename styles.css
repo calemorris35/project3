@@ -7,6 +7,92 @@ body {
   position: relative;
 }
 
+/* .footprint_pic,
+.astronaut,
+.ice,
+.soil-pic,
+.closeup,
+.kale-pic,
+.moon-pic, */
+
+
+.footprint_pic{
+  background-image: url("assets/footprint_pic.jpg");
+  height: 100%;
+  width: 100%;
+  min-height: 200px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.astronaut{
+  background-image: url("assets/astronaut_pic.jpeg");
+  height: 100%;
+  width: 100%;
+  min-height: 200px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ice{
+  background-image: url("assets/ice_pic.jpeg");
+  height: 100%;
+  width: 100%;
+  min-height: 200px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.soil-pic{
+    background-image: url("assets/soil_pic.jpeg");
+    height: 100%;
+    width: 100%;
+    min-height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.closeup{
+  background-image: url("assets/moon_closeup_pic.jpg");
+  height: 100%;
+  width: 100%;
+  min-height: 200px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.kale-pic{
+  background-image: url("assets/kale_pic.jpeg");
+  height: 100%;
+  width: 100%;
+  min-height: 200px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.moon-pic{
+  background-image: url("assets/moon_pic.jpeg");
+  height: 100%;
+  width: 100%;
+  min-height: 200px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .site-header h1{
   position: absolute;
   text-align: center;
@@ -20,8 +106,6 @@ body {
 }
 
 .all-info {
-  /* margin-left: 7%; */
-  margin-right: 7%;
   color: white;
   font-family: acumin-pro, sans-serif;
   font-weight: 300;
@@ -31,6 +115,7 @@ body {
 
 p {
   margin-left: 10%;
+  margin-right: 7%;
 }
 
 h3 {
