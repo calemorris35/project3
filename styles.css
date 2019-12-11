@@ -156,17 +156,17 @@ blockquote {
 /* For Ipad */
 @media only screen and (min-width:500px) and (max-width:768px) {
 
-p {
-  margin-left: 30%;
-}
-
 .column {
   display:flex;
 }
 
 .paragraphs {
-  margin-left: 5%;
+  /* margin-left: 5%; */
   width: 66%;
+}
+
+.h3 {
+  width: 33%;
 }
 
 blockquote{
