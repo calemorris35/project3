@@ -154,10 +154,19 @@ blockquote {
 
 
 /* For Ipad */
-@media only screen and (min-width:500px) and (max-width:1000px) {
+@media only screen and (min-width:500px) and (max-width:768px) {
 
 p {
   margin-left: 30%;
+}
+
+.column {
+  display:flex;
+}
+
+.paragraphs {
+  margin-left: 5%;
+  width: 66%;
 }
 
 blockquote{
@@ -195,4 +204,4 @@ blockquote{
 
 
   /* For Desktop */
-  @media only screen and (min-width:1000px) {
+  @media only screen and (min-width:960px) {
