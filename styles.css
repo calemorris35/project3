@@ -74,8 +74,8 @@ body {
   position: absolute;
   text-align: center;
   z-index: 1;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 12%;
+  margin-top: 8%;
 }
 
 .all-info {
