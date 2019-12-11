@@ -132,8 +132,6 @@ a {
   font-size: 20px;
   text-decoration: none;
   color: white;
-  /* margin-left: 6%; */
-  /* margin-right: 6%; */
   border: 2px;
   background-color: #97C7D3;
   padding: 2% 0%;
@@ -158,11 +156,38 @@ blockquote {
 /* For Ipad */
 @media only screen and (min-width:500px) and (max-width:768px) {
 
+p {
+  margin-left: 30%;
+}
 
+blockquote{
+  margin-left: 30%;
+}
 
+#intro_title{
+  position: absolute;
+}
 
+#intro_title.is_stuck{
+}
 
+#when_title.is_stuck{
+}
 
+#water_title.is_stuck{
+}
+
+#soil_title.is_stuck{
+}
+
+#shelter_title.is_stuck{
+}
+
+#kale_title.is_stuck{
+}
+
+#conclusion_title.is_stuck{
+}
 
 
 
