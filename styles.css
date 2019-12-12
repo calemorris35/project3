@@ -149,6 +149,8 @@ blockquote {
   font-style: italic;
   color: #FFF364;
   font-size: 35px;
+  text-align: right;
+  margin-inline-start: 0;
 }
 
 
@@ -162,15 +164,11 @@ blockquote {
 
 .paragraphs {
   /* margin-left: 5%; */
-  width: 66%;
+  width: 75%;
 }
 
 .h3 {
-  width: 33%;
-}
-
-blockquote{
-  margin-left: 30%;
+  width: 25%;
 }
 
 #intro_title{
@@ -197,11 +195,67 @@ blockquote{
 
 #conclusion_title.is_stuck{
 }
-
-
+}
 
 
 
 
   /* For Desktop */
-  @media only screen and (min-width:960px) {
+  @media only screen and (min-width:769px) {
+
+.column {
+  display:flex;
+}
+
+.paragraphs {
+  /* margin-left: 5%; */
+  width: 66%;
+}
+
+.h3 {
+  width: 33%;
+}
+
+.side-quote {
+  display:flex;
+}
+
+#side-p {
+  width: 50%;
+}
+
+blockquote {
+  width: 50%;
+}
+
+#side-1,
+#side-2,
+#side-3,
+#side-4 {
+  flex-direction: row-reverse;
+}
+
+#intro_title{
+  position: absolute;
+}
+
+#intro_title.is_stuck{
+  }
+
+#when_title.is_stuck{
+  }
+
+#water_title.is_stuck{
+  }
+
+#soil_title.is_stuck{
+  }
+
+#shelter_title.is_stuck{
+  }
+
+#kale_title.is_stuck{
+  }
+
+#conclusion_title.is_stuck{
+  }
