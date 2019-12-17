@@ -158,6 +158,27 @@ blockquote {
 /* For Ipad */
 @media only screen and (min-width:500px) and (max-width:768px) {
 
+.header-buttons {
+  width: 50%;
+  max-width: 310px;
+}
+
+.footprint_pic,
+.astronaut,
+.ice,
+.soil-pic,
+.closeup,
+.kale-pic,
+.moon-pic {
+  height: 100%;
+  width: 100%;
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .column {
   display:flex;
 }
@@ -178,8 +199,16 @@ blockquote {
 #intro_title.is_stuck{
 }
 
+#intro_title {
+  padding: 14.172px 21.266px 14.172px 35.438px;
+}
+
 #when_title.is_stuck{
 }
+
+#when_title {
+  padding: 14.172px 21.266px 14.172px 35.438px;
+  }
 
 #water_title.is_stuck{
 }
@@ -191,11 +220,23 @@ blockquote {
 #soil_title.is_stuck{
 }
 
+#soil_title {
+  padding: 14.172px 21.266px 14.172px 35.438px;
+}
+
 #shelter_title.is_stuck{
 }
 
+#shelter_title {
+  padding: 14.172px 21.266px 14.172px 35.438px;
+  }
+
 #kale_title.is_stuck{
 }
+
+#kale_title {
+  padding: 14.172px 21.266px 14.172px 35.438px;
+  }
 
 #conclusion_title.is_stuck{
 }
@@ -206,6 +247,10 @@ blockquote {
 
   /* For Desktop */
   @media only screen and (min-width:769px) {
+
+.header-buttons{
+  width: 75%;
+}
 
 .column {
   display:flex;
@@ -241,7 +286,7 @@ blockquote {
 .moon-pic {
   height: 100%;
   width: 100%;
-  min-height: 250px;
+  min-height: 300px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -262,7 +307,15 @@ blockquote {
 #intro_title.is_stuck{
   }
 
+#intro_title {
+  padding: 14.172px 21.266px 14.172px 35.438px;
+  }
+
 #when_title.is_stuck{
+  }
+
+#when_title {
+  padding: 14.172px 21.266px 14.172px 35.438px;
   }
 
 #water_title.is_stuck{
@@ -275,11 +328,23 @@ blockquote {
 #soil_title.is_stuck{
   }
 
+#soil_title {
+  padding: 14.172px 21.266px 14.172px 35.438px;
+  }
+
 #shelter_title.is_stuck{
+  }
+
+#shelter_title {
+  padding: 14.172px 21.266px 14.172px 35.438px;
   }
 
 #kale_title.is_stuck{
   }
+
+#kale_title {
+  padding: 14.172px 21.266px 14.172px 35.438px;
+    }
 
 #conclusion_title.is_stuck{
   }
