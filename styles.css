@@ -232,6 +232,22 @@ blockquote {
   width: 50%;
 }
 
+.footprint_pic,
+.astronaut,
+.ice,
+.soil-pic,
+.closeup,
+.kale-pic,
+.moon-pic {
+  height: 100%;
+  width: 100%;
+  min-height: 250px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #side-1,
 #side-2,
 #side-3,
