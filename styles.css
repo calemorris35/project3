@@ -184,6 +184,10 @@ blockquote {
 #water_title.is_stuck{
 }
 
+#water_title {
+  padding: 21.078px 31.609px 21.078px 52.668px;
+}
+
 #soil_title.is_stuck{
 }
 
@@ -247,6 +251,10 @@ blockquote {
 
 #water_title.is_stuck{
   }
+
+#water_title {
+  padding: 21.078px 31.609px 21.078px 52.668px;
+}
 
 #soil_title.is_stuck{
   }

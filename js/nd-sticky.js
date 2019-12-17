@@ -16,6 +16,7 @@ $("#when_title").stick_in_parent({
 
 $("#water_title").stick_in_parent({
     // offset_top: 10
+    spacer:false
 });
 
 $("#soil_title").stick_in_parent({
